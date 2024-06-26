@@ -156,3 +156,36 @@ body{
 .quote-content span{
     align-self: flex-end;
 }
+
+/* CALL TO ACTION */
+
+.call-act-content{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 800px;
+    padding: 32px 128px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.call-act-content h3, .call-act-content p{
+    margin: 0;
+}
+
+.call-act-section{
+    display: flex;
+    justify-content: center;
+    margin: 64px 0;
+}
+
+.call-act-content button{
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 3px solid #F9FAF8;
+    color: #F9FAF8;
+}
